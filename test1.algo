@@ -1,0 +1,23 @@
+agorithme string ()::
+var ch:string;
+begin
+read(ch)
+if ch[length(ch)-1] !="." :
+  ch=ch+1
+  :end
+i==0
+NombreDeCharacter==0
+Words==1
+Vowels==0
+
+for i from 0 to len(ch)-1:
+  if ch[i] in [A to Z]:
+    NombreDeCharacter=NombreDeCharacter+1 
+  elif ch[i]=" ":
+    Words=Words+1
+  elif ch[i]=["a", "e", "i", "o", "u"] :
+    Vowels=Vowels+1
+  end
+
+write("nomber de characters dans cet phrase est"+NombreDeCharacter+"  et nomber de mots dans cet phrase est"+ Words+ "  et nombre de vowels est"+Vowels)
+end
