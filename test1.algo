@@ -4,7 +4,7 @@ begin
 read(ch)
 if ch[length(ch)-1] !="." :
   ch=ch+1
-  :end
+:end
 i==0
 NombreDeCharacter==0
 Words==1
