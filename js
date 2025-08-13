@@ -73,7 +73,7 @@ function premier(x){
     }
 
 
-}
+
 function fibonacci(n)
 {
   a=0
