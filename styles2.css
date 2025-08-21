@@ -1,0 +1,154 @@
+/* Reset some default margins */
+body, h2, label, input, select, textarea, legend {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Background video covers full page */
+.aziz4, .aziz5 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1; /* Keeps videos behind everything */
+}
+
+.test1, .test2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Header */
+.aziz1 {
+  font-family: Arial, sans-serif;
+  height: 70px;
+ animation-name: aziz;
+    animation-duration: 15s;
+    animation-delay: 0s;
+    animation-iteration-count:1000;
+}
+@keyframes aziz{
+    from{
+        color: white;
+        margin-left: 20px;
+        text-align: center;
+        font-size: 30px;
+        font-size: 30px;
+        font-family: Arial, sans-serif;
+        
+        background-image: url("image.jpeg");
+        
+
+
+    }
+    to {
+      font-family: Arial, sans-serif;
+       font-size: 30px;
+        color:white;
+        margin-right: 50px;
+        text-align: center;
+        background-image: url("image.jpeg");
+
+    }
+}
+
+.aziz1 img.aziz3 {
+  height: 40px;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+/* Form styling */
+form {
+  background: rgba(255, 255, 255, 0.9);
+  width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+fieldset {
+  border: 2px solid #333;
+  border-radius: 6px;
+  padding: 20px;
+}
+
+legend h2 {
+  font-size: 20px;
+  color: #333;
+}
+
+/* Labels & inputs */
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="file"],
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Checkboxes & radios */
+input[type="checkbox"],
+input[type="radio"] {
+  margin-left: 8px;
+}
+
+/* Buttons */
+input[type="reset"],
+input[type="submit"] {
+  padding: 10px 15px;
+  margin-top: 15px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="reset"] {
+  background: #d9534f;
+  color: white;
+}
+
+input[type="submit"] {
+  background: #5cb85c;
+  color: white;
+}
+
+input[type="reset"]:hover {
+  background: #c9302c;
+}
+
+input[type="submit"]:hover {
+  background: #449d44;
+}
+.vid1 {
+  position: absolute;
+  margin-left: 32px;
+  margin-top:54px;
+  width:500px;
+  height: 800px;
+}
+.vid2 {
+ position: absolute;
+  margin-left: 479px;
+  margin-top:54px;
+  width:500px;
+  height: 800px;
+}

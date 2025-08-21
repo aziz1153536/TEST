@@ -1,68 +1,197 @@
-/* .navbar-brand {
-  color: green !important;
-} */
+header{
+    
+    
+    height: 80px;
 
-* {
-  margin: 0;
-  padding: 0;
 }
+.aziz1{
 
-i {
-  font-size: 35px;
-  cursor: pointer;
-  margin: 0 10px;
-  color: black;
-}
-main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
-.shopping-card-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #e7e7e7;
-  border-radius: 10px;
-  padding: 3%;
-  margin: 50px 0;
-}
-.total-price span {
-  font-size: 30px;
-}
+font-style: normal;
+font-size: 40px;
 
-.total {
-  font-weight: bold;
-}
-.list-products {
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
-  width: 70%;
-}
-.card {
-  padding: 5%;
-}
-.card-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
-.quantity {
-  font-size: 25px;
-}
 
-.card-body div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 25px;
 }
+#bg-video{
+  position:absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1; /* Push behind everything */
+  object-fit: cover; /* Ensures the video fills without distortion */
+}
+.tdd{
+    background-color: white;
+}
+nav{
+    display: flex;
+    
+    height: 600px;
+    width: 200px;
+    position: absolute;
 
-.fa-trash-alt {
-  color: #de6b5c;
+
+}
+section{
+     
+
+    height: 600px;
+    width: 1500px;
+    
+    margin-left:200px ;
+    margin-top: 0px;
+    position: absolute;
+
+
+}
+footer{
+     position: absolute;
+    margin-top:600px ;
+    height: 200px;
+    width: 1700px;
+    
+    
+
+
+
+}
+body{
+    ;
+}
+aside{
+    padding-top:80px;
+    padding-left:800px ;
+
+}
+article{
+   font-family: Arial, sans-serif;
+    margin-right: 00px;
+    
+
+}
+li{
+    font-size: 30px;
+    color: bisque;
+}
+article{
+    padding-left:30px;
+    color:black;
+    font-style:unset;
+    display: flex;
+    position:absolute;
+    padding-right:800px;
+    padding-bottom:200px;
+    font-size: 25px;
+    top:120px;
+    bottom:;
+}
+footer{
+    
+    height: 200px;
+    width:1700px;
+    position: absolute;
+    padding-top:1100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.company{
+    animation-name: aziz;
+    animation-duration: 15s;
+    animation-delay: 0s;
+    animation-iteration-count:1000;
+
+}
+@keyframes aziz{
+    from{
+        color: white;
+        margin-left: 20px;
+        
+        
+        background-image: url("image13.jpeg");
+        
+
+
+    }
+    to {
+        color:white;
+        margin-right: 20px;
+        
+        background-image: url("image13.jpeg");
+
+    }
+}
+#TEST{
+    width:500px;
+    height: 850px;
+    border-radius: 2%;
+    
+    
+}
+.aziz3{
+    height: 50px;
+    width: 50px;
+    border-radius: 80%;
+}
+.aziz4{
+    position: absolute;
+    background-color: blue;
+    padding-bottom:70px;
+    padding-top: 20px;
+    padding-left: 100px;
+    background-image: url("portrait.jpg");
+    height: 400px;
+    width: 400px;
+    border-radius: 80%;
+}
+.aziz5{
+    margin-top:100px;
+    margin-left: 500px;
+    font-size: 40px;
+}
+.ptt {
+    width:1080px;
+    padding-left: 120px;
+    border: 2px black double;
+    border-radius: 30px;
+}
+.testtt{
+    
+    padding-top: 80px;
+    height: 500px;
+    width:220px;
+}
+.discord{
+    margin-right: 500px;
+    left: 300px;
+     height:500px;
+     width:1220px;
+
+}
+span{
+    padding:15px;
+    border: 2px black double;
+    border-radius: 30px;
+    transition-property: all;
+    transition-duration: 3s;
+
+}
+span:hover{
+    color:white;
+    background-color:black;
+}
+#img19{
+    padding-left:500px;
+    height:500px ;
+    width: 500px;
+}
+.link{
+    
+    position:absolute;
+    text-align: center;
+    padding-left:540px;
+    padding-top:100px;
 }

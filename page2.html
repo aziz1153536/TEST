@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Carthage Computer Company</title>
+  <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+  <div class="vid1">
+  <video class="vid1" autoplay loop muted>
+  <source src="video5.mp4" type="video/mp4" />
+ 
+</video>
+
+
+
+  </div>
+ 
+
+  <!-- Header -->
+  <div class="aziz1">
+    Carthage Computer Company &nbsp; 
+    <img class="aziz3" src="DFFD.jpg" alt="">
+  </div>
+
+  <!-- Form -->
+  <form id="formulaire" onsubmit="return verif()">
+    <fieldset>
+      <legend>
+        <h2>We're hiring!!!!</h2>
+      </legend>
+
+      <!-- Name -->
+      <label>Name</label>
+      <input type="text" placeholder="Your name" id="a1"><br>
+
+      <label>Last Name</label>
+      <input type="text" placeholder="Your last name" id="a2"><br>
+
+      <!-- Birthdate -->
+      <label>Date Of Birth</label>
+      <input type="date" id="a3"><br>
+
+      <!-- Country -->
+      <label>Where you from</label>
+      <select name="continent" id="continent">
+        <option disabled selected>Your country</option>
+        <optgroup label="Europe">
+          <option>France</option>
+          <option>Germany</option>
+          <option>Spain</option>
+        </optgroup>
+        <optgroup label="Africa">
+          <option>Tunisia</option>
+          <option>Western Sahara</option>
+          <option>Egypt</option>
+        </optgroup>
+        <optgroup label="Asia">
+          <option>India</option>
+          <option>China</option>
+          <option>Nepal</option>
+        </optgroup>
+      </select><br>
+
+      <!-- About -->
+      <label>Talk about yourself</label><br>
+      <textarea id="textarea" cols="45" rows="5" placeholder="Talk about yourself"></textarea><br>
+
+      <!-- File -->
+      <label>Send us your Experiences:</label><br>
+      <input type="file"><br>
+
+      <!-- Email -->
+      <label>Your Email</label>
+      <input type="email" id="mail"><br>
+
+      <!-- Speciality -->
+      <label>What's Your speciality</label><br>
+      CyberSecurity <input type="checkbox" id="d1"><br>
+      Web Development <input type="checkbox" id="d2"><br>
+      Software Engineering <input type="checkbox" id="d3"><br>
+
+      <br>
+
+      <!-- Gender -->
+      <label>What's Your gender:</label><br>
+      Man <input type="radio" id="c1" name="gender" value="man">
+      Woman <input type="radio" id="c2" name="gender" value="woman"><br>
+
+      <br><br>
+      <input type="reset" value="delete">
+      <input type="submit" value="send">
+    </fieldset>
+  </form>
+  <script src="java.js"></script>
+</body>
+  
